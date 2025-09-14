@@ -19,6 +19,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="css/main.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -92,7 +97,14 @@
 
     <section class="departments-section py-5">
       <div class="container container-custom">
-        <h2 class="section-title">أقسام العيادات</h2>
+        <div class="section-header">
+          <h2 class="section-title">أقسام العيادات</h2>
+          <p class="section-subtitle">
+            اكتشف مجموعتنا الشاملة من التخصصات الطبية المتنوعة، حيث نوفر خدمات
+            صحية متكاملة تلبي احتياجات جميع أفراد الأسرة تحت إشراف نخبة من
+            الأطباء المتخصصين وبأحدث المعدات الطبية.
+          </p>
+        </div>
 
         <div class="row g-4">
           <!-- قسم العلاج الطبيعي -->
@@ -216,7 +228,6 @@
     </section>
 
     <section class="care-section">
-      <!-- النصف الأول - المحتوى النصي -->
       <div class="care-content-half">
         <div class="geometric-shapes">
           <div class="shape"></div>
@@ -230,17 +241,17 @@
             <span>رعاية استثنائية</span>
           </div>
 
-          <h2 class="section-title">الرعاية</h2>
+          <h2 class="care-title">الرعاية</h2>
 
-          <h3 class="care-title">نحو تأثير أول انطباع عن عمرنا الحقيقي</h3>
+          <h3 class="care-subtitle">نحو تأثير أول انطباع عن عمرنا الحقيقي</h3>
 
-          <p class="care-subtitle">
+          <p class="care-des">
             نقدم رعاية شاملة ومتخصصة تركز على
             <span class="highlight-text">جودة الحياة</span>
             وتحسين الصحة العامة لجميع المرضى بأحدث المعايير العالمية
           </p>
 
-          <ul class="modern-features">
+          <ul class="care-features">
             <li class="feature-item" style="--delay: 0s">
               <div class="feature-icon">
                 <i class="fas fa-dollar-sign"></i>
@@ -271,13 +282,188 @@
         </div>
       </div>
 
-      <!-- النصف الثاني - مكان الصورة -->
       <div class="care-image-half">
-        <img src="images/care-bg.png" alt="">
+        <img src="images/care-bg.png" alt="" />
+      </div>
+    </section>
+
+    <section class="medical-team-section py-5">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">فريقنا الطبي</h2>
+          <p class="section-subtitle">
+            خبراء متخصصون ذوو كفاءة عالية مكرسون لتقديم أفضل رعاية طبية حديثة
+            وعلاج شخصي متميز لكل مريض لدينا، مع ضمان الحصول على تجربة علاجية
+            استثنائية تتميز بالدقة والعناية الفائقة
+          </p>
+        </div>
+
+        <div class="swiper team-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <img
+                  src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=300&fit=crop&crop=face"
+                  alt="د. أحمد محمد"
+                  class="doctor-image"
+                />
+                <h3 class="doctor-name">د. أحمد محمد</h3>
+                <p class="doctor-specialty">استشاري القلب والأوعية الدموية</p>
+                <div class="doctor-rating">
+                  <span class="rating-text">4.9</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <ul class="doctor-info">
+                  <li>
+                    <i class="fas fa-graduation-cap"></i> دكتوراه في طب القلب
+                  </li>
+                  <li><i class="fas fa-clock"></i> 15+ سنة خبرة</li>
+                  <li><i class="fas fa-language"></i> العربية، الإنجليزية</li>
+                  <li>
+                    <i class="fas fa-map-marker-alt"></i> العيادة الرئيسية
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <img
+                  src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop&crop=face"
+                  alt="د. فاطمة العلي"
+                  class="doctor-image"
+                />
+                <h3 class="doctor-name">د. فاطمة العلي</h3>
+                <p class="doctor-specialty">أخصائية الأعصاب</p>
+                <div class="doctor-rating">
+                  <span class="rating-text">4.8</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <ul class="doctor-info">
+                  <li>
+                    <i class="fas fa-graduation-cap"></i> أخصائية الجهاز
+                    العصبي
+                  </li>
+                  <li><i class="fas fa-clock"></i> 12+ سنة خبرة</li>
+                  <li><i class="fas fa-language"></i> العربية، الفرنسية</li>
+                  <li><i class="fas fa-map-marker-alt"></i> قسم الأعصاب</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <img
+                  src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=300&h=300&fit=crop&crop=face"
+                  alt="د. محمد الخالد"
+                  class="doctor-image"
+                />
+                <h3 class="doctor-name">د. محمد الخالد</h3>
+                <p class="doctor-specialty">جراح العظام والمفاصل</p>
+                <div class="doctor-rating">
+                  <span class="rating-text">4.9</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <ul class="doctor-info">
+                  <li>
+                    <i class="fas fa-graduation-cap"></i> زمالة جراحة العظام
+                  </li>
+                  <li><i class="fas fa-clock"></i> 18+ سنة خبرة</li>
+                  <li><i class="fas fa-language"></i> العربية، الإنجليزية</li>
+                  <li><i class="fas fa-map-marker-alt"></i> قسم الجراحة</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <img
+                  src="https://d26e3f10zvrezp.cloudfront.net/Gallery/c45ef842-d466-4afe-a44f-7f60a00f6167-1024x1024.webp"
+                  alt="د. سارة أحمد"
+                  class="doctor-image"
+                />
+                <h3 class="doctor-name">د. سارة أحمد</h3>
+                <p class="doctor-specialty">أخصائية النساء والتوليد</p>
+                <div class="doctor-rating">
+                  <span class="rating-text">4.7</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+                <ul class="doctor-info">
+                  <li>
+                    <i class="fas fa-graduation-cap"></i> استشارية النساء
+                    والتوليد
+                  </li>
+                  <li><i class="fas fa-clock"></i> 10+ سنوات خبرة</li>
+                  <li><i class="fas fa-language"></i> العربية، الإنجليزية</li>
+                  <li><i class="fas fa-map-marker-alt"></i> عيادة النساء</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <img
+                  src="https://images.unsplash.com/photo-1622902046580-2b47f47f5471?w=300&h=300&fit=crop&crop=face"
+                  alt="د. عمر الصالح"
+                  class="doctor-image"
+                />
+                <h3 class="doctor-name">د. عمر الصالح</h3>
+                <p class="doctor-specialty">أخصائي الأطفال</p>
+                <div class="doctor-rating">
+                  <span class="rating-text">4.8</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <ul class="doctor-info">
+                  <li>
+                    <i class="fas fa-graduation-cap"></i> ماجستير طب الأطفال
+                  </li>
+                  <li><i class="fas fa-clock"></i> 8+ سنوات خبرة</li>
+                  <li><i class="fas fa-language"></i> العربية، الإنجليزية</li>
+                  <li><i class="fas fa-map-marker-alt"></i> عيادة الأطفال</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
