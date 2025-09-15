@@ -375,7 +375,7 @@ html {
   content: "";
   width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, #3498db, #2980b9);
+  background: linear-gradient(135deg, rgba(110, 193, 228, 0.9), rgba(0, 161, 156, 0.9));
   display: block;
   margin: 15px auto;
   border-radius: 2px;
@@ -424,7 +424,7 @@ html {
   height: 50px;
   border-radius: 50%;
   box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2);
-  background: linear-gradient(135deg, #3498db, #2980b9);
+  background: linear-gradient(135deg, rgba(110, 193, 228, 0.9), rgba(0, 161, 156, 0.9));
 }
 .department-card .holder-bar .department-icon i,
 .department-card .holder-bar .department-icon svg {
@@ -455,7 +455,7 @@ html {
   height: 18px;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
-  background: linear-gradient(135deg, #3498db, #2980b9);
+  background: linear-gradient(135deg, rgba(110, 193, 228, 0.9), rgba(0, 161, 156, 0.9));
 }
 .department-card .department-features li::after {
   content: "✓";
@@ -474,12 +474,12 @@ html {
   inset-inline-start: 0;
   width: 100%;
   height: 4px;
-  background: linear-gradient(90deg, #3498db, #2980b9);
+  background: linear-gradient(135deg, rgba(110, 193, 228, 0.9), rgba(0, 161, 156, 0.9));
 }
 .department-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-  border-color: #3498db;
+  border-color: rgba(0, 161, 156, 0.9);
 }
 
 .care-section {
@@ -494,7 +494,7 @@ html {
   justify-content: center;
   width: 50%;
   overflow: hidden;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 25%, #3498db 50%, #4facfe 75%, #2980b9 100%);
+  background: linear-gradient(135deg, rgba(110, 193, 228, 0.95) 0%, rgba(0, 161, 156, 0.95) 50%, rgba(0, 136, 122, 0.95) 100%);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
 }
@@ -506,7 +506,7 @@ html {
 }
 .care-section .care-content-half .geometric-shapes .shape {
   position: absolute;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.25);
   border-radius: 50%;
   animation: float 6s ease-in-out infinite;
 }
@@ -547,14 +547,14 @@ html {
   padding: 12px 24px;
   margin-bottom: 25px;
   border-radius: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   font-size: 0.9rem;
   font-weight: 500;
   color: white;
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   animation: pulse 2s ease-in-out infinite;
 }
 .care-section .care-content-half .content-wrapper .care-title {
@@ -621,7 +621,7 @@ html {
   align-items: center;
   gap: 20px;
   padding: 15px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   animation: fadeInUp 1s ease-out calc(1.1s + var(--delay)) both;
 }
@@ -682,7 +682,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 20% 80%, rgba(52, 152, 219, 0.3) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(41, 128, 185, 0.3) 0%, transparent 50%), radial-gradient(circle at 40% 40%, rgba(79, 172, 254, 0.2) 0%, transparent 50%);
+  background: radial-gradient(circle at 20% 80%, rgba(0, 161, 156, 0.25) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(110, 193, 228, 0.25) 0%, transparent 50%), radial-gradient(circle at 40% 40%, rgba(0, 136, 122, 0.2) 0%, transparent 50%);
   pointer-events: none;
 }
 .care-section .care-content-half::after {
@@ -715,7 +715,7 @@ html {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: conic-gradient(from 0deg, transparent, rgba(52, 152, 219, 0.1), transparent);
+  background: conic-gradient(from 0deg, transparent, rgba(0, 161, 156, 0.15), transparent);
   animation: rotate 10s linear infinite;
   z-index: 1;
 }
@@ -822,11 +822,11 @@ html {
 }
 .team-slider .swiper-pagination .swiper-pagination-bullet {
   opacity: 0.7;
-  background-color: #cac7c7;
+  background: #cac7c7;
 }
 .team-slider .swiper-pagination .swiper-pagination-bullet-active {
   opacity: 1;
-  background-color: rgb(52, 152, 219);
+  background: linear-gradient(135deg, rgba(110, 193, 228, 0.9), rgba(0, 161, 156, 0.9));
   transform: scale(1.2);
 }
 
@@ -867,7 +867,7 @@ html {
   font-size: 0.9rem;
   font-weight: 600;
   text-align: center;
-  color: rgb(52, 152, 219);
+  color: #009688;
 }
 .doctor-card .doctor-rating {
   display: flex;
@@ -900,11 +900,11 @@ html {
 .doctor-card .doctor-info li i,
 .doctor-card .doctor-info li svg {
   margin-inline-end: 8px;
-  color: rgb(52, 152, 219);
+  color: #009688;
   font-size: 0.9rem;
 }
 .doctor-card .doctor-info li:hover {
-  color: rgb(52, 152, 219);
+  color: #009688;
 }
 .doctor-card::before {
   content: "";
@@ -914,7 +914,7 @@ html {
   right: 0;
   height: 90px;
   z-index: -1;
-  background: linear-gradient(90deg, rgb(52, 152, 219), rgb(41, 128, 185));
+  background: linear-gradient(135deg, rgba(0, 161, 156, 0.95) 50%, rgba(0, 136, 122, 0.95) 100%);
   border-radius: 20px 20px 0 0;
 }
 .doctor-card:hover {
@@ -923,4 +923,30 @@ html {
 }
 .doctor-card:hover .doctor-image {
   transform: scale(1.05);
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: linear-gradient(135deg, rgba(110, 193, 228, 0.9), rgba(0, 161, 156, 0.9));
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 24px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+.floating-btn i, .floating-btn svg {
+  font-size: 18px;
+}
+.floating-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }/*# sourceMappingURL=main.css.map */
