@@ -151,10 +151,11 @@ body {
       -webkit-text-fill-color: transparent;
       animation: pulse 2s infinite;
     }
+
     .navbar-nav {
       display: flex;
       gap: 2rem;
-    
+
       .nav-item {
         .nav-link {
           text-decoration: none;
@@ -163,7 +164,7 @@ body {
           transition: all 0.3s ease;
           position: relative;
           padding: 0.5rem 1rem;
-    
+
           &::after {
             content: '';
             position: absolute;
@@ -174,10 +175,12 @@ body {
             background: var(--primary-color);
             transition: width 0.3s ease;
           }
-    
-          &:hover, &.active {
+
+          &:hover,
+          &.active {
             color: var(--primary-color);
             transform: translateY(-2px);
+
             &::after {
               width: 100%;
             }
@@ -908,6 +911,26 @@ body {
     }
   }
 }
+
+.autism-speech {
+  .section-title {
+    color: #008080;
+    font-weight: bold;
+  }
+
+  p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
 
 .team-slider {
   height: fit-content;

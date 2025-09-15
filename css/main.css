@@ -714,6 +714,20 @@ body {
     height: 45px;
   }
 }
+.autism-speech .section-title {
+  color: #008080;
+  font-weight: bold;
+}
+.autism-speech p {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.autism-speech img {
+  width: 100%;
+  height: auto;
+}
+
 .team-slider {
   height: -moz-fit-content;
   height: fit-content;
