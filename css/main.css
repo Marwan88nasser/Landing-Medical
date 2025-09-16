@@ -386,27 +386,6 @@ body {
   background: rgba(255, 255, 255, 0.95);
   animation: fadeInUp 0.8s ease forwards;
 }
-.vision-box .icon-container,
-.mission-box .icon-container {
-  width: 80px;
-  height: 80px;
-  margin: 0 auto 20px;
-  background: linear-gradient(135deg, #6ec1e4, #00a19c);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 6px 13px rgba(0, 161, 156, 0.3);
-  transition: all 0.3s ease;
-}
-.vision-box .icon-container i,
-.vision-box .icon-container svg,
-.mission-box .icon-container i,
-.mission-box .icon-container svg {
-  font-size: 33px;
-  color: white;
-  transition: transform 0.3s ease;
-}
 .vision-box h3,
 .mission-box h3 {
   font-size: 28px;
@@ -468,33 +447,11 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15), 0 12px 24px rgba(0, 0, 0, 0.1);
 }
-.vision-box:hover .icon-container,
-.mission-box:hover .icon-container {
-  transform: scale(1.1) rotate(5deg);
-  box-shadow: 0 12px 30px rgba(0, 161, 156, 0.4);
-}
-.vision-box:hover .icon-container i,
-.vision-box:hover .icon-container svg,
-.mission-box:hover .icon-container i,
-.mission-box:hover .icon-container svg {
-  transform: scale(1.1);
-}
 .vision-box:hover::before,
 .mission-box:hover::before {
   inset-inline-end: 100%;
 }
 @media (max-width: 768px) {
-  .vision-box .icon-container,
-  .mission-box .icon-container {
-    width: 70px;
-    height: 70px;
-  }
-  .vision-box .icon-container i,
-  .vision-box .icon-container svg,
-  .mission-box .icon-container i,
-  .mission-box .icon-container svg {
-    font-size: 30px;
-  }
   .vision-box h3,
   .mission-box h3 {
     font-size: 24px;

@@ -440,27 +440,6 @@ body {
   background: rgba(255, 255, 255, 0.95);
   animation: fadeInUp 0.8s ease forwards;
 
-  .icon-container {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 20px;
-    background: linear-gradient(135deg, #6ec1e4, #00a19c);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 6px 13px rgba(0, 161, 156, 0.3);
-    transition: all 0.3s ease;
-
-    i,
-    svg {
-      font-size: 33px;
-      color: white;
-      transition: transform 0.3s ease;
-    }
-  }
-
-
   h3 {
     font-size: 28px;
     font-weight: 700;
@@ -524,32 +503,12 @@ body {
       0 30px 60px rgba(0, 0, 0, 0.15),
       0 12px 24px rgba(0, 0, 0, 0.1);
 
-    .icon-container {
-      transform: scale(1.1) rotate(5deg);
-      box-shadow: 0 12px 30px rgba(0, 161, 156, 0.4);
-
-      i,
-      svg {
-        transform: scale(1.1);
-      }
-    }
-
     &::before {
       inset-inline-end: 100%;
     }
   }
 
   @media (max-width: 768px) {
-    .icon-container {
-      width: 70px;
-      height: 70px;
-
-      i,
-      svg {
-        font-size: 30px;
-      }
-    }
-
     h3 {
       font-size: 24px;
       margin-bottom: 15px;
